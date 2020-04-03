@@ -14,7 +14,7 @@ class Room extends Component {
                     top: "4%",
                     bottom: "4%",
                     left: 0,
-                    width: '99.6%',
+                    width: '80.6%',
                     height: '92%',
                 }
             });
@@ -40,7 +40,9 @@ class Room extends Component {
 
         return (
             <div className="room">
-                <div id="frame" style={frameStyle}></div>
+                <div id="frame" style={frameStyle}>
+                <iframe src="https://player.twitch.tv/?channel=flumperfern" frameborder="0" allowfullscreen="true" scrolling="no" width="300"></iframe><a href="https://www.twitch.tv/flumperfern?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
+                </div>
                 <div className="header">
                     <h2 className="title">DANCE WITH {this.props.name.toUpperCase()} &#x2F;&#x2F; GUEST</h2>
                     <a href={config.COMPANY_URL} target="_blank"><img alt={config.COMPANY_NAME} className="logo-header" src={config.ASSET_PATH + "/logo-header.png"}></img></a>
