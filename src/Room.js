@@ -42,7 +42,7 @@ class Room extends Component {
             <div className="room">
                 <div id="frame" style={frameStyle}></div>
                 <div className="header">
-                    <h2 className="title">MEETING WITH {this.props.name.toUpperCase()} &#x2F;&#x2F; GUEST</h2>
+                    <h2 className="title">DANCE WITH {this.props.name.toUpperCase()} &#x2F;&#x2F; GUEST</h2>
                     <a href={config.COMPANY_URL} target="_blank"><img alt={config.COMPANY_NAME} className="logo-header" src={config.ASSET_PATH + "/logo-header.png"}></img></a>
                 </div>
                 <div className="footer">
